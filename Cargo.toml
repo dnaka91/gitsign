@@ -4,11 +4,11 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-anyhow = "1.0.79"
+anyhow = "1.0.80"
 dirs = "5.0.1"
-git2 = { version = "0.18.1", default-features = false }
+git2 = { version = "0.18.2", default-features = false }
 gix = { version = "0.58.0", default-features = false }
-inquire = { version = "0.6.2", default-features = false, features = ["crossterm"] }
+inquire = { version = "0.7.0", default-features = false, features = ["crossterm"] }
 ssh-key = { version = "0.6.4", features = ["ed25519", "encryption", "rsa"] }
 
 [profile.release]
